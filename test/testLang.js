@@ -51,6 +51,9 @@ var map =
     "ary-fonipa": "IPPH",
     "en-US-fonipa": "IPPH",
     "ijc-fonipa": "IPPH",
+    // North American Phonetic Alphabet
+    "chr-fonnapa": "APPH",
+    "en-US-fonnapa": "APPH",
     "und": undefined
 };
 

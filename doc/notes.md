@@ -49,10 +49,19 @@ Alsatian is one of the names associated with **gsw**.
 
 ## APPH
 
-Phonetic transcription - Americanist conventions. Confirm *unmapped*.
+Phonetic transcription - Americanist Conventions. Add: **und-fonnapa**
+(Undetermined/North American Phonetic Alphabet).
 
-There is no tag corresponding to the [Americanist Phonetic
-Alphabet](http://en.wikipedia.org/wiki/Americanist_phonetic_notation).
+**fonnapa** is a variant subtag to indicate the the [Americanist Phonetic
+Notation](http://en.wikipedia.org/wiki/Americanist_phonetic_notation),
+also called the North American Phonetic Alphabet.
+
+As a variant subtag, `fonnapa` cannot be used by itself. If one has
+to map specific language tags to OpenType language system tags, then
+the best choice is to use **und**, which means Undetermined, as
+the primary language.  Anything with a variant subtag of **fonnapa**
+should be mapped to APPH because the phonetic transcription system
+determines the typographic conventions no matter what the language is.
 
 ## ARA
 
